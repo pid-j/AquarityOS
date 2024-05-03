@@ -19,14 +19,15 @@ Not much for now, just some simple commands, such as:
 - **fetchdist** - A basic ripoff of neofetch with less features.
 - **sudo** - Execute something with high-level privileges (currently unneccesary because package managers don't exist)
 
-There is also no file system. While there is a variable in the main file that controls the current working directory shown
-in the `user@pc folder$` command line interface, it does nothing. All it does is make it seem like a file system actually exists.
+Update v1.0 has introduced a file-system, located in `init/fs`.
 
 ## When will I make an update?
 
 Depends on how tired or lazy I feel.
 
-# Run Steps
+# Setup
+
+## Run Steps
 
 Install Python >=3.1 (add to PATH), then download the archive, extract it, then:
 
@@ -45,3 +46,31 @@ This supports most operating systems:
 6. Run `pip install -r requirements.txt`. If it doesn't work, try `pip3 install -r requirements.txt`, or adding Python to the path.
 7. Run `python init/terminal.py`, or `python3 init/terminal.py`. It is important you run it in the terminal.
 8. All done!
+
+## Changing the User
+
+There is a file named `.auth.txt` in the `init` directory. It looks something like this:
+
+```
+root
+admin
+ROOT
+```
+
+The first line is the username, the second line is the password, and the last line is the OS PC name respectively.
+
+For example, if I wanted to become a user named `boy` with the password `1234` on an OS PC named `BOY`, I would update the `.auth.txt` file to this:
+
+```
+boy
+1234
+BOY
+```
+
+# PRECAUTION
+
+You can destroy your file system with this thing.
+How?
+Since the filesystem directory is not an important system component, atleast to your **real** operating system, you can `rm` it through AquarityOS.
+
+Not that it really matters because the entire **real** OS ***that you have*** is a file system.
