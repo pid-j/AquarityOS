@@ -26,6 +26,5 @@ terminal.buffer.write(
     True
 )
 
-os.chdir("fs")
 while True:
     terminal.input(f"{username}@{pcName} {os.getcwd()}$ ")
