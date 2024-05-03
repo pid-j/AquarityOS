@@ -19,7 +19,7 @@ Not much for now, just some simple commands, such as:
 - **fetchdist** - A basic ripoff of neofetch with less features.
 - **sudo** - Execute something with high-level privileges (currently unneccesary because package managers don't exist)
 
-Update v1.0 has introduced file system commands.
+Update v1.0beta has introduced file system commands.
 
 ## When will I make an update?
 
