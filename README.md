@@ -66,11 +66,3 @@ boy
 1234
 BOY
 ```
-
-# PRECAUTION
-
-You can destroy your file system with this thing.
-How?
-Since the filesystem directory is not an important system component, atleast to your **real** operating system, you can `rm` it through AquarityOS.
-
-Not that it really matters because the entire **real** OS ***that you have*** is a file system.
