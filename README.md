@@ -25,3 +25,23 @@ in the `user@pc folder$` command line interface, it does nothing. All it does is
 ## When will I make an update?
 
 Depends on how tired or lazy I feel.
+
+# Run Steps
+
+Install Python >=3.1 (add to PATH), then download the archive, extract it, then:
+
+- **For Windows Users** Run the `run.bat` file.
+- **For Linux Users** Run the `run.sh` file with bash.
+
+## Manual Execution
+
+This supports most operating systems:
+
+1. Install Python >=3.1 (Add it to PATH)
+2. Download the archive (zip/tar.gz)
+3. Extract it to any folder
+4. Open the extracted folder, then find `requirements.txt`
+5. Open the folder containing the `requirements.txt` file in the terminal.
+6. Run `pip install -r requirements.txt`. If it doesn't work, try `pip3 install -r requirements.txt`, or adding Python to the path.
+7. Run `python init/terminal.py`, or `python3 init/terminal.py`. It is important you run it in the terminal.
+8. All done!
