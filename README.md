@@ -2,6 +2,8 @@
 
 An OS written in Python.
 
+Currently: **v1.0beta - Perching Pigeon**
+
 ## What is AquarityOS?
 
 AquarityOS is a text-based "operating system" which is made entirely from Python.
