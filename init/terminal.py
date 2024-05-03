@@ -20,7 +20,7 @@ with open(".auth.txt", "r") as auth:
     pcName = lines[2].upper().strip()
 
 terminal.buffer.write(
-    "Aquarity v1.0 - Perching Pigeon\n"
+    "Aquarity v1.0beta - Perching Pigeon\n"
     "aqx shell - Type help for more info\n"
     "-----------------------------",
     True
