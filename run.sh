@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-BASEDIR=($dirname "$0")
+BASEDIR=$(dirname "$0")
 
 pip3 install -r requirements.txt
 cd init || exit
